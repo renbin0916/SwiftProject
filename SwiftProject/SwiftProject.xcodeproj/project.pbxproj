@@ -15,6 +15,7 @@
 		19DAE5A8235842D400EDD167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DAE5A6235842D400EDD167 /* LaunchScreen.storyboard */; };
 		19DAE5B3235842D400EDD167 /* SwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE5B2235842D400EDD167 /* SwiftProjectTests.swift */; };
 		19DAE5BE235842D400EDD167 /* SwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE5BD235842D400EDD167 /* SwiftProjectUITests.swift */; };
+		19DAE5CD2358431600EDD167 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE5CC2358431600EDD167 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		19DAE5B9235842D400EDD167 /* SwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DAE5BD235842D400EDD167 /* SwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectUITests.swift; sourceTree = "<group>"; };
 		19DAE5BF235842D400EDD167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DAE5CC2358431600EDD167 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		19DAE59A235842D300EDD167 /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				19DAE5CB235842F800EDD167 /* Extension */,
 				19DAE59B235842D300EDD167 /* AppDelegate.swift */,
 				19DAE59D235842D300EDD167 /* SceneDelegate.swift */,
 				19DAE59F235842D300EDD167 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				19DAE5BF235842D400EDD167 /* Info.plist */,
 			);
 			path = SwiftProjectUITests;
+			sourceTree = "<group>";
+		};
+		19DAE5CB235842F800EDD167 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19DAE5CC2358431600EDD167 /* String+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19DAE5CD2358431600EDD167 /* String+Extension.swift in Sources */,
 				19DAE5A0235842D300EDD167 /* ViewController.swift in Sources */,
 				19DAE59C235842D300EDD167 /* AppDelegate.swift in Sources */,
 				19DAE59E235842D300EDD167 /* SceneDelegate.swift in Sources */,
